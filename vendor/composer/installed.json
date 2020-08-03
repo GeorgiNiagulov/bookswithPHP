@@ -1,0 +1,50 @@
+[
+    {
+        "name": "biblys/isbn",
+        "version": "2.1.4",
+        "version_normalized": "2.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/biblys/isbn.git",
+            "reference": "ed8587ea690d0eb79d30e87908ff298065cab240"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/biblys/isbn/zipball/ed8587ea690d0eb79d30e87908ff298065cab240",
+            "reference": "ed8587ea690d0eb79d30e87908ff298065cab240",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1 || ^7.2"
+        },
+        "require-dev": {
+            "guzzlehttp/guzzle": "^6.2",
+            "phpunit/phpunit": "^7 || ^8"
+        },
+        "time": "2020-02-28T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Biblys": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Clement Bourgoin",
+                "email": "cb@nokto.net"
+            }
+        ],
+        "description": "A PHP library to convert and validate ISBNs & EANs",
+        "homepage": "https://github.com/biblys/isbn",
+        "keywords": [
+            "ISBN",
+            "book",
+            "ean"
+        ]
+    }
+]
